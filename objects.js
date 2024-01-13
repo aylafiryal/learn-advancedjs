@@ -69,16 +69,16 @@
 // let EricC = King("Cartman", 20);
 
 // 5. Prototype
-function King(name, energy) {
-  this.name = name;
-  this.energy = energy;
-}
+// function King(name, energy) {
+//   this.name = name;
+//   this.energy = energy;
+// }
 
-King.prototype.power = function (cheesepoof) {
-  this.energy = this.energy + cheesepoof;
-  console.log(`Hi, your majesty, King ${this.name}.
-        Your energy now at ${this.energy}`);
-};
+// King.prototype.power = function (cheesepoof) {
+//   this.energy = this.energy + cheesepoof;
+//   console.log(`Hi, your majesty, King ${this.name}.
+//         Your energy now at ${this.energy}`);
+// };
 
-let KyleB = new King("Kyle", 10);
-let EricC = new King("Cartman", 20);
+// let KyleB = new King("Kyle", 10);
+// let EricC = new King("Cartman", 20);
