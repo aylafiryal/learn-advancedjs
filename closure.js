@@ -49,6 +49,7 @@ console.dir(selamatPagi("Kyle"));
 let add = (function () {
   // seolah2 dia private. Like wtf kenapa ga ada fitur access modifier aja si
   // And they says im weird for liking Java like dude just look at this shit
+  // But nah. Mungkin penerapannya bakal beda sama pake AM "private" di JAVA
   let counter = 0;
   return function () {
     return ++counter;
